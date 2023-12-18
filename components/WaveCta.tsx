@@ -21,7 +21,7 @@ export default function WaveCta() {
       </svg>
       <CtaWrapper>
         <Container>
-        <Title>Embrace Smart Savings – Join Now and Never Overlook a Coupon Again!</Title>
+        <Title>Embrace Smart Savings – Join now and never miss a cooupon again!</Title>
           <CustomButtonGroup>
             <Button onClick={() => setIsModalOpened(true)}>
               Start Saving Now <span>&rarr;</span>
