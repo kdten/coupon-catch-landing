@@ -35,6 +35,18 @@ export default class MyDocument extends Document {
           <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
         </Head>
         <body className="next-light-theme">
+        {/* <!-- Google Tag Manager (noscript) --> */}
+        <noscript>
+  <iframe 
+    src="https://www.googletagmanager.com/ns.html?id=GTM-MMVPJ4DH"
+    height="0" 
+    width="0" 
+    style={{ display: 'none', visibility: 'hidden' }}
+    title="Google Tag Manager"
+  ></iframe>
+</noscript>
+
+{/* <!-- End Google Tag Manager (noscript) --> */}
           <Main />
           <NextScript />
         </body>

@@ -1,4 +1,4 @@
-import { ColorModeStyles, useColorModeValue, useColorSwitcher } from 'nextjs-color-mode';
+import { useColorSwitcher } from 'nextjs-color-mode';
 import styled from 'styled-components';
 
 export default function ColorSwitcher() {
@@ -29,7 +29,17 @@ export default function ColorSwitcher() {
     </svg>
   );
 
-  return <CustomButton onClick={toggleTheme}>{colorMode === 'light' ? moonIcon : sunIcon}</CustomButton>;
+  // Determine the appropriate label based on the current theme
+  const buttonLabel = colorMode === 'light' ? 'Switch to dark mode' : 'Switch to light mode';
+
+  return (
+    <CustomButton 
+      onClick={toggleTheme} 
+      aria-label={buttonLabel} // Adding aria-label for accessibility
+    >
+      {colorMode === 'light' ? moonIcon : sunIcon}
+    </CustomButton>
+  );
 }
 
 const CustomButton = styled.button`

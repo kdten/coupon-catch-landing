@@ -7,109 +7,74 @@ export default function ContactPage() {
     <Page title="Privacy policy">
       <PrivacyPolicyContainer>
         <RichText>
+          <h1>Privacy Policy for Coupon Catch</h1>
+          <br />
+          <h3>Introduction</h3>
+          <br />
           <p>
-            Deserunt culpa consequat non nostrud esse cillum pariatur velit consequat. Est fugiat voluptate deserunt sint culpa sint.
-            Laboris irure veniam quis ea voluptate. Nulla ad proident ex excepteur. Sunt sint ex laborum dolor quis magna aliquip qui amet
-            nulla. Laboris proident aute exercitation irure esse id eu occaecat ad ipsum est. Dolor cillum Lorem occaecat enim veniam
-            ullamco cupidatat qui dolore exercitation Lorem eu quis magna. Esse cillum aliqua et laborum eu dolore consectetur. Exercitation
-            id non quis ex qui in dolore est est proident. Laborum nisi commodo fugiat nulla et magna veniam aliquip. Aliqua duis non
-            nostrud ea velit incididunt. Laboris nostrud incididunt laborum enim eu dolor. Culpa anim sit sit ea. Labore laborum et aute ex
-            est est excepteur labore voluptate deserunt. Amet ea laboris ea culpa dolor laborum consequat aliquip reprehenderit voluptate
-            non laboris ipsum. Quis excepteur pariatur est enim duis consectetur nulla cupidatat ipsum dolor nisi ipsum. Dolore dolor
-            nostrud aute dolore. Excepteur reprehenderit aliquip amet pariatur excepteur. Aliqua commodo nulla dolor ex nisi duis
-            reprehenderit sint aliqua in minim. Lorem amet quis non veniam ut reprehenderit aliquip mollit do ullamco pariatur.
+          Welcome to Coupon Catch, a digital service provider focused on e-commerce, operated by Coupon Catch Skypher LLC. Our website, couponcatch.com, is committed to protecting your privacy. This policy outlines how we handle your personal information and your rights as a user. By using our services, you agree to the terms of this policy.
           </p>
           <br />
-          <strong>
-            Reprehenderit aliquip minim commodo magna occaecat dolore labore mollit mollit do esse deserunt. Aliquip eu reprehenderit aute{' '}
-          </strong>
+          <h3>What information do we collect?</h3>
+          <br />
+          <h4>What We Collect:</h4>
           <ul>
             <li>
-              Ipsum cillum amet aliqua laboris ut excepteur enim laborum veniam officia officia esse. Anim et voluptate qui quis cillum
-              labore ipsum incididunt consequat est ea exercitation et commodo. Consequat consequat amet officia sit non id occaecat
-              occaecat duis irure.
+            <strong>Photos:</strong> When you upload photos, we process and analyze these images to identify relevant coupons.
             </li>
-            <li>Nostrud dolor pariatur dolore Lorem in aliqua sunt aliqua excepteur laboris exercitation proident officia.</li>
-            <li>Ut et voluptate consequat elit amet minim.</li>
-            <li>Reprehenderit et consequat ea minim est proident eu incididunt non laboris proident culpa consequat sint.</li>
+            <li><strong>Browsing Data:</strong> We collect information about how you use our website, such as pages visited and search queries.</li>
+            <li><strong>Device Information:</strong> Information about your device, such as IP address, browser type, and operating system.</li>
           </ul>
+          <br />
+          <h3>Use of Data</h3>
+          <br />
+          <h4>We use your data to:</h4>
+          <ul>
+            <li><strong>Provide Services:</strong> Analyze your photos to find coupons.</li>
+            <li><strong>Improve Our Services:</strong> Understand how our services are used to make improvements.</li>
+            <li><strong>Analytics:</strong> We use Google Analytics to gather statistical data.</li>
+          </ul>
+          <br />
+          <h3>Protection Measures</h3>
+          <br />
+          <p>We implement a variety of security measures to maintain the safety of your personal information. These include data encryption, secure servers, and access controls.</p>
+          <br />
+          <h3>User Rights</h3>
+          <br />
+          <h4>As a user, you have the right to:</h4>
+          <br />
+          <ul>
+            <li>Access your personal information.</li>
+            <li>Request that your personal information be corrected.</li>
+            <li>Request that your personal information be deleted.</li>
+            <li>Request that we restrict the processing of your personal information.</li>
+            <li>Object to the processing of your personal information.</li>
+            <li>Request that your personal information be transferred to another organization.</li>
+          </ul>
+          <br />
+          <h3>Third-party Affiliations</h3>
+          <br />
+          <h4>We may share data with third parties for the following reasons:</h4>
+          <br />
+          <ul>
+            <li><strong>Service Providers:</strong> Companies that perform services on our behalf, like analytics.</li>
+            <li><strong>Legal Requirements:</strong> If required by law or to protect our rights.</li>
+          </ul>
+          <br />
+          <h3>Age Restrictions</h3>
+          <br />
+          <p>Users must be 18 years or older to use Coupon Catch.</p>
+          <br />
+          <h3>Changes to Policy</h3>
+          <br />
+          <p>We may update this policy from time to time. If we make significant changes, we will notify you by email or by posting a notice on our website. We encourage you to review this policy periodically.</p>
+          <br />
+          <h3>Contact Us</h3>
+          <br />
+          <p>For any questions or concerns regarding your privacy, please contact us through our website.</p>
+          <br />
+          <p>This policy aims to be clear and transparent, reflecting our commitment to your privacy while you enjoy the benefits of Coupon Catch.</p>
 
-          <table>
-            <tr>
-              <th>Column 1</th>
-              <th>Column 2</th>
-              <th>Column 3</th>
-              <th>Column 4</th>
-            </tr>
-            <tr>
-              <td>Dolor do culpa excepteur proident anim duis deserunt nulla dolor et tempor.</td>
-              <td>Eu enim qui ea nostrud minim.</td>
-              <td>Proident officia velit ut in est culpa non adipisicing excepteur exercitation aliqua.</td>
-              <td>Duis proident adipisicing magna aute sint adipisicing sit deserunt minim eu.</td>
-            </tr>
-            <tr>
-              <td>Nisi cillum culpa adipisicing cillum.</td>
-              <td>Proident nulla cillum aute occaecat mollit labore.</td>
-              <td>Non ex eiusmod tempor cupidatat consequat anim et veniam nisi sint fugiat pariatur irure.</td>
-              <td>Consectetur nisi culpa non ex ipsum deserunt magna est est magna.</td>
-            </tr>
-            <tr>
-              <td>Officia laboris anim voluptate incididunt mollit mollit.</td>
-              <td>Adipisicing est consectetur id esse nostrud culpa non exercitation cupidatat pariatur dolore amet.</td>
-              <td>Dolor ex est ad ut adipisicing irure nulla esse aliqua nisi ipsum id aliqua.</td>
-              <td>Proident anim consequat enim sit sint pariatur.</td>
-            </tr>
-            <tr>
-              <td>Sint anim sint deserunt in elit ad Lorem dolore tempor.</td>
-              <td>Consequat nostrud irure anim do ex dolor amet ea dolore incididunt esse et cupidatat.</td>
-              <td>Eu nostrud occaecat incididunt deserunt Lorem ad Lorem elit.</td>
-              <td>Id ullamco in ad adipisicing magna elit ea minim sunt esse adipisicing.</td>
-            </tr>
-            <tr>
-              <td>Ea adipisicing ut nulla aute dolore quis in reprehenderit qui ipsum Lorem magna.</td>
-              <td>Irure ex dolore consequat mollit Lorem nostrud velit irure.</td>
-              <td>Dolore minim ad esse occaecat.</td>
-              <td>Qui id tempor ut culpa.</td>
-            </tr>
-            <tr>
-              <td>Ea ut esse non dolor do cupidatat.</td>
-              <td>Deserunt pariatur minim nisi elit ipsum officia irure id culpa ipsum.</td>
-              <td>Ea cillum voluptate consectetur et reprehenderit mollit ut excepteur exercitation do fugiat duis qui.</td>
-              <td>Id laborum officia aliqua ut nulla mollit.</td>
-            </tr>
-            <tr>
-              <td>Laborum et et sint ad incididunt amet aliqua commodo esse proident.</td>
-              <td>Velit aute proident aliqua consequat minim laborum reprehenderit reprehenderit eiusmod amet in aute.</td>
-              <td>Adipisicing adipisicing consequat incididunt officia in eu minim non cupidatat nulla nostrud sint.</td>
-              <td>Excepteur minim ea ex commodo nisi aute nostrud cupidatat consectetur.</td>
-            </tr>
-            <tr>
-              <td>Anim elit aliquip elit mollit pariatur consectetur commodo.</td>
-              <td>Consequat cupidatat sit sit quis labore culpa in duis duis amet elit.</td>
-              <td>Laborum Lorem pariatur id adipisicing minim.</td>
-              <td>Deserunt Lorem do id ea aliquip sunt.</td>
-            </tr>
-            <tr>
-              <td>Laborum aute laborum elit adipisicing velit commodo occaecat amet laborum.</td>
-              <td>Dolor voluptate duis elit id.</td>
-              <td>Excepteur sunt duis id officia id reprehenderit enim exercitation dolor.</td>
-              <td>Et excepteur duis adipisicing laboris labore adipisicing id dolor adipisicing exercitation eu nisi.</td>
-            </tr>
-            <tr>
-              <td>Esse consequat commodo irure elit nostrud esse ut magna commodo ipsum.</td>
-              <td>Exercitation exercitation ipsum qui aute ad commodo exercitation aliquip nisi aute Lorem in nulla.</td>
-              <td>Sint cillum esse quis mollit fugiat incididunt officia adipisicing do sint eu.</td>
-              <td>Consectetur aute ad aliquip eu Lorem proident irure aliqua aliqua officia reprehenderit reprehenderit amet.</td>
-            </tr>
-            <tr>
-              <td>Est Lorem exercitation eiusmod sit et.</td>
-              <td>Quis aliqua irure dolor do reprehenderit non id excepteur voluptate eiusmod veniam nostrud et elit.</td>
-              <td>Minim id sit officia consectetur irure id deserunt excepteur eu.</td>
-              <td>
-                Reprehenderit pariatur reprehenderit voluptate cillum minim tempor elit sint eiusmod ullamco id incididunt officia dolore.
-              </td>
-            </tr>
-          </table>
         </RichText>
       </PrivacyPolicyContainer>
     </Page>

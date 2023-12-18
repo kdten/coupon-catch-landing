@@ -57,25 +57,25 @@ export default function Footer() {
         </ListContainer>
         <BottomBar>
           <ShareBar>
-            <NextLink href="https://www.twitter.com/my-saas-startup" passHref>
-              <a>
+            <NextLink href="https://www.couponcatchapp.com" passHref>
+              <a href="https://www.couponcatchapp.com" aria-label="Link to company Twitter page">
                 <TwitterIcon size={50} round={true} />
               </a>
             </NextLink>
 
-            <NextLink href="https://www.facebook.com/my-saas-startup" passHref>
-              <a>
+            <NextLink href="https://www.couponcatchapp.com" passHref>
+              <a href="https://www.couponcatchapp.com" aria-label="Link to company Facebook page">
                 <FacebookIcon size={50} round={true} />
               </a>
             </NextLink>
 
-            <NextLink href="https://www.linkedin.com/my-saas-startup" passHref>
-              <a>
+            <NextLink href="https://www.couponcatchapp.com" passHref>
+              <a href="https://www.couponcatchapp.com" aria-label="Link to company LinkedIn page">
                 <LinkedinIcon size={50} round={true} />
               </a>
             </NextLink>
           </ShareBar>
-          <Copyright>&copy; Copyright 2021 My Saas Startup</Copyright>
+          <Copyright>&copy; Copyright {new Date().getFullYear()} Skypher LLC</Copyright>
         </BottomBar>
       </Container>
     </FooterWrapper>
@@ -97,7 +97,7 @@ function ListItem({ title, href }: SingleFooterListItem) {
   return (
     <ListItemWrapper>
       <NextLink href={href} passHref>
-        <a>{title}</a>
+        <a href="https://www.couponcatchapp.com">{title}</a>
       </NextLink>
     </ListItemWrapper>
   );
