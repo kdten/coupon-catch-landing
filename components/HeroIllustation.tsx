@@ -4,7 +4,7 @@ export default function HeroIllustration() {
 
   return (
     <Image
-      src='/phoneHero.5scale.png'
+      src='/phoneHero.5scale.webp'
       width={664}
       height={769}
       alt="Picture of app on phone"
