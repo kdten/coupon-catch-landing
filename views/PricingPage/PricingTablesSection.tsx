@@ -18,11 +18,11 @@ export default function PricingTablesSection() {
         </PricingCard> */}
         <PricingCard
           title="Starter"
-          description="$.99 no matter the savings"
+          description="$2.99 no matter the savings"
           benefits={['Unlimited receipts', '', 'Unlock any coupon amount', 'Exact receipt info for cashier']}
           isOutlined
         >
-          $.99<span>/receipt</span>
+          $2.99<span>/receipt</span>
         </PricingCard>
         {/* <PricingCard
           title="Premium"

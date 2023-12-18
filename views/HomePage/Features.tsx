@@ -2,8 +2,31 @@ import React from 'react';
 import styled from 'styled-components';
 import AutofitGrid from 'components/AutofitGrid';
 import BasicCard from 'components/BasicCard';
+import CountupCard from 'components/CountupCard';
 import Container from 'components/Container';
 import { media } from 'utils/media';
+
+const COUNTUP_CARDS = [
+  {
+    title: 'Lorem ipsum dolor sit amet.',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+    start: 0,
+    end: 100,
+  },
+  {
+    title: 'Lorem ipsum dolor sit amet.',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+    start: 0,
+    end: 100,
+  },
+  {
+    title: 'Lorem ipsum dolor sit amet.',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+    start: 0,
+    end: 100,
+  },
+];
+
 
 const FEATURES = [
   {
@@ -66,13 +89,18 @@ export default function Features() {
   return (
     <Container>
       <CustomAutofitGrid>
-        {FEATURES.map((singleFeature, idx) => (
+        {/* {FEATURES.map((singleFeature, idx) => (
           <BasicCard key={singleFeature.title} {...singleFeature} />
+        ))} */}
+        {COUNTUP_CARDS.map((singleCountupCard, idx) => (
+          <CountupCard key={singleCountupCard.title} {...singleCountupCard} />
         ))}
       </CustomAutofitGrid>
     </Container>
   );
 }
+
+
 
 const CustomAutofitGrid = styled(AutofitGrid)`
   --autofit-grid-item-size: 40rem;
