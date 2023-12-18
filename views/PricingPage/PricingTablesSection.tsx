@@ -7,7 +7,7 @@ import SectionTitle from 'components/SectionTitle';
 export default function PricingTablesSection() {
   return (
     <Wrapper>
-      <SectionTitle>Flexible pricing for every consumer</SectionTitle>
+      <SectionTitle>Pays for itself in one coupon</SectionTitle>
       <AutofitGrid>
         {/* <PricingCard
           title="free"
@@ -17,12 +17,12 @@ export default function PricingTablesSection() {
           $0<span>/month</span>
         </PricingCard> */}
         <PricingCard
-          title="Starter"
+          title="Premium"
           description="$2.99 no matter the savings"
-          benefits={['Unlimited receipts', '', 'Unlock any coupon amount', 'Exact receipt info for cashier']}
+          benefits={['Unlimited receipts', 'Unlock any coupon amount', 'Exact receipt info for cashier']}
           isOutlined
         >
-          $2.99<span>/receipt</span>
+          $2.99<span>/month</span>
         </PricingCard>
         {/* <PricingCard
           title="Premium"

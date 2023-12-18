@@ -8,22 +8,19 @@ import { media } from 'utils/media';
 
 const FEATURES = [
   {
-    imageUrl: '/grid-icons/asset-1.svg',
-    title: 'Lorem ipsum dolor sit amet.',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis error dolorem ipsa dolore facere est consequuntur aut, eos doloribus voluptate?',
+    imageUrl: '/grid-icons/asset-5.svg',
+    title: 'Ease of Use',
+    description: 'Using our app is as easy as taking a picture. No more fumbling with codes or barcodes.',
   },
   {
     imageUrl: '/grid-icons/asset-2.svg',
-    title: 'Lorem ipsum dolor sit amet.',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis error dolorem ipsa dolore facere est consequuntur aut, eos doloribus voluptate?',
+    title: 'Instant Alerts',
+    description: 'Get notified immediately when a cashback opportunity becomes available. Never miss a chance to save.',
   },
   {
     imageUrl: '/grid-icons/asset-3.svg',
-    title: 'Lorem ipsum dolor sit amet.',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis error dolorem ipsa dolore facere est consequuntur aut, eos doloribus voluptate?',
+    title: 'No More Worrying',
+    description: 'No need to check and double check item numbers or circle ads. We do the hard work for you.',
   },
   // {
   //   imageUrl: '/grid-icons/asset-4.svg',
