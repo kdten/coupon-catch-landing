@@ -1,5 +1,4 @@
 import React from 'react';
-// import CountUp from 'react-countup';
 import styled from 'styled-components';
 import AutofitGrid from 'components/AutofitGrid';
 import BasicCard from 'components/BasicCard';
