@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react';
 import CountUp from 'react-countup';
+import VisibilitySensor from 'react-visibility-sensor';
 import styled from 'styled-components';
 
 interface CountupCardProps {
@@ -7,12 +8,30 @@ interface CountupCardProps {
     description: string;
     start: number;
     end: number;
+    prefix?: string;
 }
 
-export default function CountupCard({ title, description, start, end }: CountupCardProps) {
+export default function CountupCard({ title, description, start, end, prefix = '' }: CountupCardProps) {
+    const [viewPortEntered, setViewPortEntered] = useState(false);
+
     return (
         <Card>
-            <StyledCountUp start={start} end={end} />
+            <VisibilitySensor
+                partialVisibility
+                onChange={(isVisible) => {
+                    if (isVisible) {
+                        setViewPortEntered(true);
+                    }
+                }}
+            >
+                <StyledCountUp 
+                    start={viewPortEntered ? start : 0} 
+                    end={viewPortEntered ? end : start} 
+                    decimals={2} 
+                    duration={3} 
+                    prefix={prefix} 
+                />
+            </VisibilitySensor>
             <Title>{title}</Title>
             <Description>{description}</Description>
         </Card>
@@ -20,8 +39,7 @@ export default function CountupCard({ title, description, start, end }: CountupC
 }
 
 const StyledCountUp = styled(CountUp)`
-    font-size: 3rem; // adjust as needed
-    color: blue; // adjust as needed
+    font-size: 5rem; // adjust as needed
 `;
 
 const Card = styled.div`

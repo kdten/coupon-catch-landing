@@ -1,26 +1,27 @@
 import React from 'react';
 import styled from 'styled-components';
 import AutofitGrid from 'components/AutofitGrid';
-import BasicCard from 'components/BasicCard';
-import CountupCard from 'components/CountupCard';
+// import BasicCard from 'components/BasicCard';
 import Container from 'components/Container';
+import CountupCard from 'components/CountupCard';
 import { media } from 'utils/media';
 
 const COUNTUP_CARDS = [
   {
-    title: 'Lorem ipsum dolor sit amet.',
+    title: 'Coupons redeemed this year',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+    start: 0,
+    end: 23845,
+  },
+  {
+    title: 'Amount saved',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
     start: 0,
     end: 100,
+    prefix: '$',
   },
   {
-    title: 'Lorem ipsum dolor sit amet.',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-    start: 0,
-    end: 100,
-  },
-  {
-    title: 'Lorem ipsum dolor sit amet.',
+    title: 'Coupons redeemed all time',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
     start: 0,
     end: 100,
@@ -28,62 +29,62 @@ const COUNTUP_CARDS = [
 ];
 
 
-const FEATURES = [
-  {
-    imageUrl: '/grid-icons/asset-1.svg',
-    title: 'Lorem ipsum dolor sit amet.',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis error dolorem ipsa dolore facere est consequuntur aut, eos doloribus voluptate?',
-  },
-  {
-    imageUrl: '/grid-icons/asset-2.svg',
-    title: 'Lorem ipsum dolor sit amet.',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis error dolorem ipsa dolore facere est consequuntur aut, eos doloribus voluptate?',
-  },
-  {
-    imageUrl: '/grid-icons/asset-3.svg',
-    title: 'Lorem ipsum dolor sit amet.',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis error dolorem ipsa dolore facere est consequuntur aut, eos doloribus voluptate?',
-  },
-  // {
-  //   imageUrl: '/grid-icons/asset-4.svg',
-  //   title: 'Lorem ipsum dolor sit amet.',
-  //   description:
-  //     'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis error dolorem ipsa dolore facere est consequuntur aut, eos doloribus voluptate?',
-  // },
-  // {
-  //   imageUrl: '/grid-icons/asset-5.svg',
-  //   title: 'Lorem ipsum dolor sit amet.',
-  //   description:
-  //     'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis error dolorem ipsa dolore facere est consequuntur aut, eos doloribus voluptate?',
-  // },
-  // {
-  //   imageUrl: '/grid-icons/asset-6.svg',
-  //   title: 'Lorem ipsum dolor sit amet.',
-  //   description:
-  //     'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis error dolorem ipsa dolore facere est consequuntur aut, eos doloribus voluptate?',
-  // },
-  // {
-  //   imageUrl: '/grid-icons/asset-7.svg',
-  //   title: 'Lorem ipsum dolor sit amet.',
-  //   description:
-  //     'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis error dolorem ipsa dolore facere est consequuntur aut, eos doloribus voluptate?',
-  // },
-  // {
-  //   imageUrl: '/grid-icons/asset-8.svg',
-  //   title: 'Lorem ipsum dolor sit amet.',
-  //   description:
-  //     'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis error dolorem ipsa dolore facere est consequuntur aut, eos doloribus voluptate?',
-  // },
-  // {
-  //   imageUrl: '/grid-icons/asset-9.svg',
-  //   title: 'Lorem ipsum dolor sit amet.',
-  //   description:
-  //     'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis error dolorem ipsa dolore facere est consequuntur aut, eos doloribus voluptate?',
-  // },
-];
+// const FEATURES = [
+//   {
+//     imageUrl: '/grid-icons/asset-1.svg',
+//     title: 'Lorem ipsum dolor sit amet.',
+//     description:
+//       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis error dolorem ipsa dolore facere est consequuntur aut, eos doloribus voluptate?',
+//   },
+//   {
+//     imageUrl: '/grid-icons/asset-2.svg',
+//     title: 'Lorem ipsum dolor sit amet.',
+//     description:
+//       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis error dolorem ipsa dolore facere est consequuntur aut, eos doloribus voluptate?',
+//   },
+//   {
+//     imageUrl: '/grid-icons/asset-3.svg',
+//     title: 'Lorem ipsum dolor sit amet.',
+//     description:
+//       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis error dolorem ipsa dolore facere est consequuntur aut, eos doloribus voluptate?',
+//   },
+//   // {
+//   //   imageUrl: '/grid-icons/asset-4.svg',
+//   //   title: 'Lorem ipsum dolor sit amet.',
+//   //   description:
+//   //     'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis error dolorem ipsa dolore facere est consequuntur aut, eos doloribus voluptate?',
+//   // },
+//   // {
+//   //   imageUrl: '/grid-icons/asset-5.svg',
+//   //   title: 'Lorem ipsum dolor sit amet.',
+//   //   description:
+//   //     'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis error dolorem ipsa dolore facere est consequuntur aut, eos doloribus voluptate?',
+//   // },
+//   // {
+//   //   imageUrl: '/grid-icons/asset-6.svg',
+//   //   title: 'Lorem ipsum dolor sit amet.',
+//   //   description:
+//   //     'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis error dolorem ipsa dolore facere est consequuntur aut, eos doloribus voluptate?',
+//   // },
+//   // {
+//   //   imageUrl: '/grid-icons/asset-7.svg',
+//   //   title: 'Lorem ipsum dolor sit amet.',
+//   //   description:
+//   //     'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis error dolorem ipsa dolore facere est consequuntur aut, eos doloribus voluptate?',
+//   // },
+//   // {
+//   //   imageUrl: '/grid-icons/asset-8.svg',
+//   //   title: 'Lorem ipsum dolor sit amet.',
+//   //   description:
+//   //     'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis error dolorem ipsa dolore facere est consequuntur aut, eos doloribus voluptate?',
+//   // },
+//   // {
+//   //   imageUrl: '/grid-icons/asset-9.svg',
+//   //   title: 'Lorem ipsum dolor sit amet.',
+//   //   description:
+//   //     'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis error dolorem ipsa dolore facere est consequuntur aut, eos doloribus voluptate?',
+//   // },
+// ];
 
 export default function Features() {
   return (
