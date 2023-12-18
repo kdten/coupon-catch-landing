@@ -13,23 +13,22 @@ export default function Cta() {
     <CtaWrapper>
       <Container>
         <Stack>
-          <OverTitle>Lorem ipsum dolor sit amet</OverTitle>
-          <SectionTitle>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus delectus?</SectionTitle>
+          <OverTitle>as easy as taking a photo</OverTitle>
+          <SectionTitle>You work hard to earn your money, why not keep more of it?</SectionTitle>
           <Description>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda beatae accusamus deleniti nihil quas tempora numquam, vitae
-            culpa.
+            Upload your receipts to Coupon Catch and you&lsquo;ll never miss a chance to save again. Our software tracks receipts and alerts you about coupon adjustments, with simple steps to claim your money back. Save more effortlessly!
           </Description>
           <ButtonGroup>
             <NextLink href="#early-access" passHref>
               <Button>
-                Subscribe to the newsletter <span>&rarr;</span>
+                Sign up to start saving <span>&rarr;</span>
               </Button>
             </NextLink>
-            <NextLink href="#whitepaper" passHref>
+            {/* <NextLink href="#whitepaper" passHref>
               <OutlinedButton transparent>
                 Features <span>&rarr;</span>
               </OutlinedButton>
-            </NextLink>
+            </NextLink> */}
           </ButtonGroup>
         </Stack>
       </Container>

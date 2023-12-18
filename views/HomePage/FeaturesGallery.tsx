@@ -10,30 +10,31 @@ import { media } from 'utils/media';
 
 const TABS = [
   {
-    title: 'Find relevant media contacts - multiline title',
+    title: 'Personalized notifications for Coupon Adjustments',
     description:
-      '<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quidem ipsam ratione dicta quis cupiditate consequuntur laborum ducimus iusto velit.</p>',
+      '<p>Stay informed with timely alerts! Our app notifies you when your Costco purchases are eligible for a coupon adjustment, ensuring you never miss a chance to save money. Easy and efficient, it\'s your personal assistant for smart shopping!</p>',
     imageUrl: '/demo-illustration-3.png',
     baseColor: '249,82,120',
     secondColor: '221,9,57',
   },
   {
-    title: 'Another amazing feature',
+    title: 'Seamless Receipt Management',
     description:
-      '<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quidem ipsam ratione dicta quis cupiditate consequuntur laborum ducimus iusto velit.</p>',
+      '<p>Organize and track your receipts effortlessly. Our app simplifies your shopping experience by digitizing and categorizing your Costco receipts. Say goodbye to paper clutter and hello to convenient, accessible receipt management!</p>',
     imageUrl: '/demo-illustration-4.png',
     baseColor: '57,148,224',
     secondColor: '99,172,232',
   },
   {
-    title: 'And yet... another truly fascinating feature',
+    title: 'Step-by-Step Guidance for Cash Back',
     description:
-      '<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quidem ipsam ratione dicta quis cupiditate consequuntur laborum ducimus iusto velit.</p>',
+      '<p>Maximize your savings with ease. Our app not only alerts you about potential cash back opportunities but also provides clear, step-by-step instructions on how to claim your Costco coupon adjustments. Hassle-free savings at your fingertips!</p>',
     imageUrl: '/demo-illustration-5.png',
     baseColor: '88,193,132',
     secondColor: '124,207,158',
   },
 ];
+
 
 export default function FeaturesGallery() {
   const [currentTab, setCurrentTab] = useState(TABS[0]);
