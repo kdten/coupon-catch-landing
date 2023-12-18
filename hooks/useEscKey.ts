@@ -17,7 +17,7 @@ export default function useEscClose({ onClose }: UseEscCloseProps) {
   );
 
   useEffect(() => {
-    window.addEventListener('keydown', handleUserKeyPress);
+    window.addEventListener('keydown', handleUserKeyPress, {passive: true});
     return () => {
       window.removeEventListener('keydown', handleUserKeyPress);
     };
