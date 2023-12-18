@@ -12,7 +12,7 @@ export default function ContactPage() {
           <h3>Introduction</h3>
           <br />
           <p>
-          Welcome to Coupon Catch, a digital service provider focused on e-commerce, operated by Coupon Catch Skypher LLC. Our website, couponcatch.com, is committed to protecting your privacy. This policy outlines how we handle your personal information and your rights as a user. By using our services, you agree to the terms of this policy.
+          Welcome to Coupon Catch, a digital service provider focused on e-commerce, operated by Coupon Catch Skypher LLC. Our website, couponcatchapp.com, is committed to protecting your privacy. This policy outlines how we handle your personal information and your rights as a user. By using our services, you agree to the terms of this policy.
           </p>
           <br />
           <h3>What information do we collect?</h3>
