@@ -8,10 +8,11 @@ interface CountupCardProps {
     description: string;
     start: number;
     end: number;
+    decimals?: number;
     prefix?: string;
 }
 
-export default function CountupCard({ title, description, start, end, prefix = '' }: CountupCardProps) {
+export default function CountupCard({ title, description, start, end, prefix = '', decimals = 0 }: CountupCardProps) {
     const [viewPortEntered, setViewPortEntered] = useState(false);
 
     return (
@@ -27,7 +28,7 @@ export default function CountupCard({ title, description, start, end, prefix = '
                 <StyledCountUp 
                     start={viewPortEntered ? start : 0} 
                     end={viewPortEntered ? end : start} 
-                    decimals={2} 
+                    decimals={decimals} 
                     duration={3} 
                     prefix={prefix} 
                 />

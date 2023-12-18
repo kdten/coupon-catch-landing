@@ -10,21 +10,22 @@ const COUNTUP_CARDS = [
   {
     title: 'Coupons redeemed this year',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-    start: 0,
+    start: 21242,
     end: 23845,
   },
   {
     title: 'Amount saved',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-    start: 0,
-    end: 100,
+    start: 23512,
+    end: 24512.34,
     prefix: '$',
+    decimals: 2,
   },
   {
     title: 'Coupons redeemed all time',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-    start: 0,
-    end: 100,
+    start: 89000,
+    end: 111282,
   },
 ];
 
