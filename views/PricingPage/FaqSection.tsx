@@ -7,6 +7,9 @@ export default function FaqSection() {
 <Wrapper>
 <div id="FAQ"><SectionTitle>Frequently Asked Questions</SectionTitle></div>
 
+  <Accordion title="What is Coupon Catch?">
+    Coupon Catch is a mobile app that helps you save money by tracking your Costco purchases and alerting you when a coupon adjustment is available. Coupon adjustments are a little-known Costco policy that allows you to get cash back on purchases when a coupon is released within 30 days of your purchase. Our app makes it easy to take advantage of this policy and get money back on your Costco purchases.
+  </Accordion>
   <Accordion title="How does the app notify me about Costco coupon adjustments?">
     Our app monitors your uploaded receipts and alerts you when a Costco purchase is eligible for a coupon adjustment. You&lsquo;ll receive timely notifications, ensuring you can take advantage of cash back opportunities as soon as they arise.
   </Accordion>
@@ -19,7 +22,7 @@ export default function FaqSection() {
   <Accordion title="What do I need to do to get my cash back from Costco?">
     Once you&lsquo;re notified of a coupon adjustment opportunity, the app provides clear, step-by-step instructions on how to claim your cash back from Costco. Coupon adjustments are processed in same area returns are processed, so you can easily claim your money back on your next Costco trip, even while waiting in line for a return.
   </Accordion>
-  <Accordion title="How do I upload my receipts to the app?">
+  <Accordion title="How do I add receipts to the app?">
     Simply take a picture of your Costco receipt using the app. Our system will automatically digitize and store the receipt, making it easy to track your purchases and potential cash back opportunities.
   </Accordion>
   <Accordion title="Is my personal information safe with this app?">
