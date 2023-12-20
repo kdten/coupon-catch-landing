@@ -30,7 +30,7 @@ export default function ContactPage() {
           <br />
           <h4>We use your data to:</h4>
           <ul>
-            <li><strong>Provide Services:</strong> Analyze your photos to find coupons.</li>
+            <li><strong>Provide Services:</strong> Analyze your photos in order to figure out which items were purchased.</li>
             <li><strong>Improve Our Services:</strong> Understand how our services are used to make improvements.</li>
             <li><strong>Analytics:</strong> We use Google Analytics to gather statistical data.</li>
           </ul>
