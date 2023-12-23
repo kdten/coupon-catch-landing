@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
 import CountUp from 'react-countup';
-import VisibilitySensor from 'react-visibility-sensor';
+import { useInView } from 'react-intersection-observer';
 import styled from 'styled-components';
 
 interface CountupCardProps {
@@ -13,26 +13,19 @@ interface CountupCardProps {
 }
 
 export default function CountupCard({ title, description, start, end, prefix = '', decimals = 0 }: CountupCardProps) {
-    const [viewPortEntered, setViewPortEntered] = useState(false);
+    const { ref, inView } = useInView({
+        triggerOnce: true, // Change it to false if you want to trigger again when element is visible
+    });
 
     return (
-        <Card>
-            <VisibilitySensor
-                partialVisibility
-                onChange={(isVisible) => {
-                    if (isVisible) {
-                        setViewPortEntered(true);
-                    }
-                }}
-            >
-                <StyledCountUp 
-                    start={viewPortEntered ? start : 0} 
-                    end={viewPortEntered ? end : start} 
-                    decimals={decimals} 
-                    duration={3} 
-                    prefix={prefix} 
-                />
-            </VisibilitySensor>
+        <Card ref={ref}>
+            <StyledCountUp 
+                start={inView ? start : 0} 
+                end={inView ? end : start} 
+                decimals={decimals} 
+                duration={3} 
+                prefix={prefix} 
+            />
             <Title>{title}</Title>
             <Description>{description}</Description>
         </Card>
