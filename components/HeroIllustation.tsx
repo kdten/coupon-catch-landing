@@ -17,7 +17,7 @@ const slideOut = keyframes`
 
 const ImageContainer = styled.div`
   position: relative;
-  width: 664px;
+  width: 560px;
   height: 769px;
   overflow: hidden;
   &:after {
@@ -27,8 +27,20 @@ const ImageContainer = styled.div`
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to right, rgba(var(--secondBackground), 1) 0%, rgba(var(--secondBackground), 0) 8%, rgba(var(--secondBackground), 0) 80%, rgba(var(--secondBackground), 1) 100%);
+    background: linear-gradient(to right, rgba(var(--secondBackground), 1) 0%, rgba(var(--secondBackground), 0) 12%, rgba(var(--secondBackground), 0) 88%, rgba(var(--secondBackground), 1) 100%);
     z-index: 1;
+  }
+  @media (max-width: 1023px) {
+    width: 450px;
+    height: 600px;
+  }
+  // @media (max-width: 768px) {
+  //   width: 225px;
+  //   height: 300px;
+  // }
+  @media (max-width: 480px) {
+    width: 300px;
+    height: 400px;
   }
 `;
 
@@ -38,11 +50,16 @@ const StyledImage = styled.img<StyledImageProps>`
   height: 100%;
   object-fit: cover;
   animation: ${props => props.incoming ? slideIn : slideOut} 3s forwards;
+  @media (max-width: 768px) {
+    height: auto;
+    // object-fit: contain;
+    width: 100vw;
+  }
 `;
 
 export default function HeroIllustration() {
   const [currentImage, setCurrentImage] = useState(0);
-  const images = ['/mockup_login.webp', '/mockup_success.webp'];
+  const images = ['/mockup_logintrim.webp', '/mockup_successtrim.webp'];
 
   React.useEffect(() => {
     const timer = setInterval(() => {
