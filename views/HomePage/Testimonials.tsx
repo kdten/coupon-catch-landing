@@ -11,28 +11,28 @@ import { media } from 'utils/media';
 const TESTIMONIALS = [
   {
     companyLogoUrl: '/testimonials/company-logo-1.svg',
-    content: `Really good. I am so pleased with this product. I didn't even need training.`,
+    content: `I can't believe the money this has saved me and my business. No matter unnecessary tracking of coupon flyers, I love it!`,
     author: {
       name: 'Clyde Edwards',
-      title: 'Very Serious Man',
+      title: 'Busniess Owner',
       avatarUrl: '/testimonials/author-photo-1.jpeg',
     },
   },
   {
     companyLogoUrl: '/testimonials/company-logo-2.svg',
-    content: `It's really wonderful. I use saas product often. Thank You! Saas product has really helped our business.`,
+    content: `With 2 kids it was hard to keep track of all the coupons and flyers. Now I can just scan my receipts `,
     author: {
-      name: 'Jimmy Hunter',
-      title: 'Sigma Male University Graduate',
+      name: 'Sheryl Davis',
+      title: 'Mother, family of 4',
       avatarUrl: '/testimonials/author-photo-2.jpeg',
     },
   },
   {
     companyLogoUrl: '/testimonials/company-logo-3.svg',
-    content: `Since I invested in saas product I made over 100,000 dollars profits. It really saves me time and effort. saas product is exactly what our business has been lacking.`,
+    content: `As a Costco member I know a value proposition when I see one! Needless to say this app pays for itself week in and week out.`,
     author: {
       name: 'Marjorie Morgan',
-      title: 'Chief Chad Officer',
+      title: 'Costco Member',
       avatarUrl: '/testimonials/author-photo-3.jpeg',
     },
   },
@@ -47,12 +47,13 @@ export default function Testimonials() {
           {TESTIMONIALS.map((singleTestimonial, idx) => (
             <SwiperSlide key={idx}>
               <TestimonialCard>
-                <NextImage
+               {/*  <NextImage
                   src={singleTestimonial.companyLogoUrl}
                   alt={`${singleTestimonial.author.name}'s company logo`}
                   width={200}
                   height={40}
                 />
+                 */}
                 <Content>“{singleTestimonial.content}”</Content>
                 <AuthorContainer>
                   <AuthorImageContainer>
