@@ -4,11 +4,11 @@ import Button from 'components/Button';
 import ButtonGroup from 'components/ButtonGroup';
 import Container from 'components/Container';
 import SectionTitle from 'components/SectionTitle';
-import { useNewsletterModalContext } from 'contexts/newsletter-modal.context';
+// import { useNewsletterModalContext } from 'contexts/newsletter-modal.context';
 import { media } from 'utils/media';
 
 export default function WaveCta() {
-  const { setIsModalOpened } = useNewsletterModalContext();
+  // const { setIsModalOpened } = useNewsletterModalContext();
 
   return (
     <>
@@ -21,11 +21,16 @@ export default function WaveCta() {
       </svg>
       <CtaWrapper>
         <Container>
-        <Title>Embrace Smart Savings – Join now and never miss a cooupon again!</Title>
+          <Title>Embrace Smart Savings – Join now and never miss a cooupon again!</Title>
           <CustomButtonGroup>
-            <Button onClick={() => setIsModalOpened(true)}>
+            <NextLink href="https://app.couponcatchapp.com" passHref>
+              <Button as="a">
+                Start Saving Now <span>&rarr;</span>
+              </Button>
+            </NextLink>
+            {/* <Button onClick={() => setIsModalOpened(true)}>
               Start Saving Now <span>&rarr;</span>
-            </Button>
+            </Button> */}
             <NextLink href="/features" passHref>
               <OutlinedButton transparent>
                 Features <span>&rarr;</span>
