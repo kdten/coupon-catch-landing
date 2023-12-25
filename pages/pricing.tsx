@@ -5,7 +5,7 @@ import PricingTablesSection from 'views/PricingPage/PricingTablesSection';
 
 export default function PricingPage() {
   return (
-    <Page title="Pricing" description="">
+    <Page title="Pricing" description="Pricing and FAQ for Coupon Catch, a Costco coupon adjustment tracker">
       <Wrapper>
         <PricingTablesSection />
         <FaqSection />
