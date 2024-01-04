@@ -89,14 +89,21 @@ export default function Navbar({ items }: NavbarProps) {
 }
 
 function NavItem({ href, title, outlined }: SingleNavItem) {
-  const { setIsModalOpened } = useNewsletterModalContext();
+  // const { setIsModalOpened } = useNewsletterModalContext();
 
-  function showNewsletterModal() {
-    setIsModalOpened(true);
-  }
+  // function showNewsletterModal() {
+  //   setIsModalOpened(true);
+  // }
 
+  // if (outlined) {
+  //   return <CustomButton onClick={showNewsletterModal}>{title}</CustomButton>;
+  // }
   if (outlined) {
-    return <CustomButton onClick={showNewsletterModal}>{title}</CustomButton>;
+    return (
+      <NextLink href="https://app.couponcatchapp.com" passHref>
+        <CustomButton>{title}</CustomButton>
+      </NextLink>
+    );
   }
 
   return (

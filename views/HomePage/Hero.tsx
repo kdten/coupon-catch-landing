@@ -20,9 +20,12 @@ export default function Hero() {
         Stop missing savings on Costco purchases! Our software tracks receipts and alerts you about coupon adjustments, with simple steps to claim your money back. Save more effortlessly!
         </Description>
         <CustomButtonGroup>
-          <Button onClick={() => setIsModalOpened(true)}>
+        <NextLink href="https://app.couponcatchapp.com" passHref>
+          <Button>
+          {/* <Button onClick={() => setIsModalOpened(true)}> */}
             Sign up to start <span>&rarr;</span>
           </Button>
+          </NextLink>
           {/* <NextLink href="#whitepaper" passHref>
             <Button transparent>
               Features <span>&rarr;</span>

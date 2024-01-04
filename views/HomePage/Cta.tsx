@@ -19,7 +19,7 @@ export default function Cta() {
             Upload your receipts to Coupon Catch and you&lsquo;ll never miss a chance to save again. Our software tracks receipts and alerts you about coupon adjustments, with simple steps to claim your money back. Save more effortlessly!
           </Description>
           <ButtonGroup>
-            <NextLink href="#early-access" passHref>
+          <NextLink href="https://app.couponcatchapp.com" passHref>
               <Button>
                 Sign up to start saving <span>&rarr;</span>
               </Button>
