@@ -8,24 +8,24 @@ import { media } from 'utils/media';
 
 const COUNTUP_CARDS = [
   {
-    title: 'Coupons redeemed this year',
+    title: 'Coupons redeemed in the last year',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-    start: 23242,
-    end: 23845,
+    start: 3742,
+    end: 3845,
   },
   {
     title: 'Amount saved',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-    start: 24123,
-    end: 24512.34,
+    start: 20423,
+    end: 20512.34,
     prefix: '$',
     decimals: 2,
   },
   {
     title: 'Coupons redeemed all time',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-    start: 111000,
-    end: 111282,
+    start: 111600,
+    end: 11282,
   },
 ];
 
