@@ -9,13 +9,13 @@ import { media } from 'utils/media';
 const COUNTUP_CARDS = [
   {
     title: 'Coupons redeemed in the last year',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+    description: '365 days of savings!',
     start: 3742,
     end: 3845,
   },
   {
     title: 'Amount saved',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+    description: 'Total amount saved in the last year.',
     start: 20423,
     end: 20512.34,
     prefix: '$',
@@ -23,7 +23,7 @@ const COUNTUP_CARDS = [
   },
   {
     title: 'Coupons redeemed all time',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+    description: 'All time savings by our users.',
     start: 11100,
     end: 11282,
   },
