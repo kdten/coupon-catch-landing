@@ -22,8 +22,8 @@ const TESTIMONIALS = [
     companyLogoUrl: '/testimonials/company-logo-2.svg',
     content: `With 2 kids it was hard to keep track of all the coupons and flyers. Now I can just scan my receipts `,
     author: {
-      name: 'Sheryl Davis',
-      title: 'Mother, family of 4',
+      name: 'Caleb Davis',
+      title: 'Father, family of 4',
       avatarUrl: '/testimonials/author-photo-2.jpeg',
     },
   },
