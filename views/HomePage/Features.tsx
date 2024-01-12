@@ -24,7 +24,7 @@ const COUNTUP_CARDS = [
   {
     title: 'Coupons redeemed all time',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-    start: 111600,
+    start: 11100,
     end: 11282,
   },
 ];
