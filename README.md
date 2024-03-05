@@ -1,5 +1,5 @@
 # Coupon Catch Landing Page (Next.js landing for mobile app)
-Write a short sentence or two about this project and what it does. Be sure to include a link and a screenshot (we're front end devs so we can actually see our work!).
+A Typescript, React, Next.js landing page optimized for amazing SEO metrics, near-perfect Green WebVitals, Sendgrid/MailChimp integration, and more.
 
 **Link to project:** http://www.couponcatchapp.com/
 
@@ -19,9 +19,6 @@ Write a short sentence or two about this project and what it does. Be sure to in
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
 ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=for-the-badge&logo=css3)
-![ReactNative](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react)
-![Ionic](https://img.shields.io/badge/Ionic-3880FF?style=for-the-badge&logo=ionic&logoColor=white)
-![Capacitor](https://img.shields.io/badge/Capacitor-119EFF?style=for-the-badge&logo=Capacitor&logoColor=white)
 ![Jest](https://img.shields.io/badge/Jest-323330?style=for-the-badge&logo=Jest&logoColor=white)
 ![Cypress](https://img.shields.io/badge/Cypress-17202C?style=for-the-badge&logo=cypress&logoColor=white)
 ![Chai](https://img.shields.io/badge/chai-A30701?style=for-the-badge&logo=chai&logoColor=white)
