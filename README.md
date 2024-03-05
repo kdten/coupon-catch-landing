@@ -2,8 +2,11 @@
 A Typescript, React, Next.js landing page optimized for amazing SEO metrics, near-perfect Green WebVitals, Sendgrid/MailChimp integration, and more.
 
 **Link to project:** http://www.couponcatchapp.com/
+<div align="center">
+  <a href="https://github.com/othneildrew/Best-README-Template">
+    <img src="https://github.com/kdten/kdten/blob/main/cclandingpreview.gif?raw=true" alt="Logo" width="80" height="80">
+  </a>
 
-![alt tag](https://github.com/kdten/kdten/blob/main/cclandingpreview.gif?raw=true)
 ## How It's Made:
 
 **Tech used:**
