@@ -4,7 +4,7 @@ A Typescript, React, Next.js landing page optimized for amazing SEO metrics, nea
 **Link to project:** http://www.couponcatchapp.com/
 <div align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="https://github.com/kdten/kdten/blob/main/cclandingpreview.gif?raw=true" alt="Logo" width="80" height="80">
+    <img src="https://github.com/kdten/kdten/blob/main/cclandingpreview.gif?raw=true" alt="Logo">
   </a>
 
 ## How It's Made:
