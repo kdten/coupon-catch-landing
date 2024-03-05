@@ -6,6 +6,7 @@ A Typescript, React, Next.js landing page optimized for amazing SEO metrics, nea
   <a href="https://github.com/othneildrew/Best-README-Template">
     <img src="https://github.com/kdten/kdten/blob/main/cclandingpreview.gif?raw=true" alt="Logo">
   </a>
+</div>
 
 ## How It's Made:
 
