@@ -34,9 +34,9 @@ This app was developed with a vision to launch into app stores in the future. Af
 
 ## Optimizations
 
-*Implemented AWS Codepipeline for CI/CD decreasing development time.
-*Ionic React produces Apple, Android and Web App from singular codebase.
-*Reduced Largest Contentful Paint from 1.2 seconds to .65 seconds.
+* Implemented AWS Codepipeline for CI/CD decreasing development time.
+* Ionic React produces Apple, Android and Web App from singular codebase.
+* Reduced Largest Contentful Paint from 1.2 seconds to .65 seconds.
 
 ## Lessons Learned:
 
