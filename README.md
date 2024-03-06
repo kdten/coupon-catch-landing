@@ -11,8 +11,6 @@ A Typescript, React, Next.js landing page optimized for amazing SEO metrics, nea
 
 ## Built with:
 
-**Tech used:**
-
 ![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=for-the-badge&logo=javascript)
 ![TypeScript](https://img.shields.io/badge/-TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![React](https://img.shields.io/badge/-React-black?style=for-the-badge&logo=react)
