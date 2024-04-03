@@ -11,7 +11,7 @@ import { media } from 'utils/media';
 const TESTIMONIALS = [
   {
     companyLogoUrl: '/testimonials/company-logo-1.svg',
-    content: `I can't believe the money this has saved me and my business. No matter unnecessary tracking of coupon flyers, I love it!`,
+    content: `I can't believe the money this has saved me and my business. No more unnecessary tracking of coupon flyers, I love it!`,
     author: {
       name: 'Clyde Edwards',
       title: 'Busniess Owner',
